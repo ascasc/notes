@@ -1,0 +1,84 @@
+body {
+	background: url('https://scontent.fkhh1-1.fna.fbcdn.net/v/t1.0-9/65894566_709590046160592_4346137763997810688_o.jpg?_nc_cat=102&_nc_oc=AQk2AV6HmnFOZgUFxRuuRxRxQ-XTXjtQmSaRB7cN2792hbWlkNa71S_AdUSVsCSMKRI&_nc_ht=scontent.fkhh1-1.fna&oh=0116480d7cb5fa0619e33df2358daea5&oe=5DC05F2A')no-repeat fixed;
+	background-size: 100% 100%;
+}
+#header {
+	position: fixed;
+	min-width: 100%;
+}
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+#header {
+	padding: 30px 0;
+	background-color: green;
+}
+#header ul {
+	list-style-type: none;
+}
+#header ul a {
+	text-decoration: none;
+}
+#header .logo {
+	float: left;
+	color: white;
+	padding-left: 50px;
+}
+#header nav {
+	float: right;
+	line-height: 40px;
+	padding-right: 50px;
+}
+#header nav li {
+	float: left;
+}
+#header nav a {
+	padding: 20px;
+	font-size: 25px;
+	color: white;
+}
+#header nav a:hover {
+	background-color: #666;
+	border-radius: 10px
+}
+#front-end, #Git-GitHub, #PHP, #Todo-list {
+	padding-top: 80px;
+}
+.container {
+	width: 1080px;
+	margin: 0 auto;
+	background-color: rgb(255, 255, 255, 0.6);
+	color: black;
+	padding-top: 100px;
+}
+.container .title .h1-1 {
+	padding-top: 50px;
+	padding-left: 40px;
+}
+.container .title .h1-2 {
+	padding-left: 80px;
+}
+.container .title .h1-3 {
+	padding-left: 120px;
+}
+.container ul {
+	padding-top: 80px;
+	padding-left: 100px;
+}
+.container ul li {
+	padding-bottom: 20px;
+}
+.container ul a {
+	font-size: 20px;
+	text-decoration: none;
+	color: black;
+	letter-spacing: 5px;
+}
+.container ul a:hover {
+	background-color: black;
+	border-radius: 5px;
+	color: white;
+	padding: 10px;
+}
